@@ -12,8 +12,8 @@ console.clear();
 
 const bookTitle = "thems Coding";
 const author = "Mikail Gökce";
-let rating = "4,5 / 5";
-let numberOfSales = "2744";
+let rating = "4.5 / 5";
+let numberOfSales = 2744;
 
 function bookOutput() {
   console.log("Title:", bookTitle);
@@ -44,12 +44,10 @@ setTimeout(function () {
   console.log("Data will be updated. Please wait a moment.");
 
   setTimeout(function () {
-    rating = "4,7 / 5 *";
-    numberOfSales = "27440 *";
+    rating = "4.7 / 5";
+    numberOfSales = 27440;
 
     bookOutput();
-
-    console.log("Data with '*'' was updated");
   }, 2000);
 }, 3000);
 
