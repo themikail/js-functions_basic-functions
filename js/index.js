@@ -10,6 +10,18 @@ console.clear();
 
 // --v-- write your code here --v--
 
+const bookTitle = "thems Coding";
+const author = "Mikail Gökce";
+let rating = "4,5 / 5";
+let numberOfSales = "2744";
+
+function bookOutput() {
+  console.log("Title:", bookTitle);
+  console.log("Author:", author);
+  console.log("Rating:", rating);
+  console.log("Sales:", numberOfSales);
+}
+
 // --^-- write your code here --^--
 
 /*
@@ -25,6 +37,21 @@ Then log all variables to the console again.
 */
 
 // --v-- write your code here --v--
+bookOutput();
+
+setTimeout(function () {
+  console.log("...");
+  console.log("Data will be updated. Please wait a moment.");
+
+  setTimeout(function () {
+    rating = "4,7 / 5 *";
+    numberOfSales = "27440 *";
+
+    bookOutput();
+
+    console.log("Data with '*'' was updated");
+  }, 2000);
+}, 3000);
 
 // --^-- write your code here --^--
 
