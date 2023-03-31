@@ -65,4 +65,6 @@ setTimeout(function () {
 
 // --v-- write your code here --v--
 
+//! Ich denke, dass ich oben schon diese Aufgabe mit beendet habe.
+
 // --^-- write your code here --^--
